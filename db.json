@@ -5,6 +5,12 @@
       "text": "Coding",
       "day": "",
       "reminder": true
+    },
+    {
+      "id": 10231,
+      "text": "Going for Lectures",
+      "day": "",
+      "reminder": false
     }
   ]
 }
