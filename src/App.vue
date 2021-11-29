@@ -30,25 +30,25 @@ export default {
     this.tasks = [
       {
         id: 1,
-        text: 'Having Meeting with the Doctor',
-        day: 'Fri 20th March 2021',
+        text: 'Meeting with the Doctor',
+        day: 'Fri 20th December 2021',
         reminder: false
       },
       {
         id: 2,
         text: 'Appointment with the Professor',
-        day: 'Fri 24th May 2021',
+        day: 'Fri 24th May 2022',
         reminder: true
       },
       {
         id: 3,
-        text: 'Having Meeting with the Doctor',
-        day: 'Fri 20th March 2021',
+        text: 'Coding with the Arkesel team',
+        day: 'Fri 20th December 2021',
         reminder: false
       },
       {
         id: 4,
-        text: 'Having Meeting with the Doctor',
+        text: 'Going out with friends',
         day: 'Fri 20th March 2021',
         reminder: true
       }
