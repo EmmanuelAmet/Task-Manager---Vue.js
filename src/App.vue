@@ -1,6 +1,6 @@
 <template> 
 <div class="container">
-  <Header title="Task Tracker"/>
+  <Header @toggle-add-task="toggleAddTask" :showAddTask="showAddTask" title="Task Tracker"/>
   <div v-show="showAddTask">
     <AddTask @add-task="addTask"/>
   </div>
@@ -67,6 +67,9 @@ export default {
     },
     addTask(task){
       this.tasks = [...this.tasks, task]
+    },
+    toggleAddTask(){
+      this.showAddTask = !this.showAddTask
     }
   }
 }
